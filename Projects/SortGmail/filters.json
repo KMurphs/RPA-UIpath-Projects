@@ -10,12 +10,17 @@
 			"Destination": "Banking/Bidvest",
 			"Email Field": "FromDisplayName",
 			"Tokens": ["Bidvest Bank"]
+		},{
+			"Name": "Banking/Capitec",
+			"Destination": "Banking/Capitec",
+			"Email Field": "FromDisplayName",
+			"Tokens": ["Capitec"]
 		},
 		{
 			"Name": "Blogs",
 			"Destination": "Blogs",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Quora","Medium","IEEE Spectrum","TaxTim","Analytics Vidhya","Stevan LeMeur"]
+			"Tokens": ["Quora","Medium","IEEE Spectrum","TaxTim","Analytics Vidhya","Stevan LeMeur","@foxwebschool","Zoho","Quincy Larson"]
 		},
 		{
 			"Name": "eCommerce",
@@ -27,13 +32,13 @@
 			"Name": "Social Media",
 			"Destination": "Social Media",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Facebook","LinkedIn","Reddit","Youtube","Upwork","Dribbble","Guru","YouVersion","Instagram","Twitter"]
+			"Tokens": ["Facebook","LinkedIn","Reddit","Youtube","Upwork","Dribbble","Guru","YouVersion","Instagram","Twitter","Pinterest","Behance"]
 		},
 		{
 			"Name": "Shopping",
 			"Destination": "Shopping",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["McAfee","Uber","UiPath","Clicks Group"]
+			"Tokens": ["McAfee","Uber","UiPath","Clicks Group", "@clicks.co.za","DSTV"]
 		},
 		{
 			"Name": "Google",
@@ -45,13 +50,13 @@
 			"Name": "Jobs",
 			"Destination": "Jobs",
 			"Email Field": "FromAddress",
-			"Tokens": ["@jobalerts.pnet.co.za","BestJobs Alerts"]
+			"Tokens": ["@jobalerts.pnet.co.za","BestJobs Alerts","Indeed"]
 		},
 		{
 			"Name": "Academia",
 			"Destination": "Academia",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Hulde Drew", "Mendeley"]
+			"Tokens": ["Hulde Drew", "Mendeley","Kaggle","Academia"]
 		},
 		{
 			"Name": "Web Development",
