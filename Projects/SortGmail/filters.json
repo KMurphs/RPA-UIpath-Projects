@@ -20,13 +20,13 @@
 			"Name": "Blogs",
 			"Destination": "Blogs",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Quora","Medium","IEEE Spectrum","TaxTim","Analytics Vidhya","Stevan LeMeur","@foxwebschool","Zoho","Quincy Larson"]
+			"Tokens": ["Quora","Medium","IEEE Spectrum","TaxTim","Analytics Vidhya","Stevan LeMeur","@foxwebschool","Zoho","Quincy Larson","Dataweek","PayScale","Team Netlify"]
 		},
 		{
 			"Name": "eCommerce",
 			"Destination": "eCommerce",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Adrian Morrison", "Ecomhunt", "Oberlo", "Fred Lam", "Dan Vas", "Dylan Sigley", "Ezra Firestone", "Wholesale Ted","Pauline Majer","Sylvester", "Franklin Hattchet","Ben Malol","Anton Kraly", "Nick Peterson","Shopify","Jason Wardrop"]
+			"Tokens": ["Adrian Morrison", "Ecomhunt", "Oberlo", "Fred Lam", "Dan Vas", "Dylan Sigley", "Ezra Firestone", "Wholesale Ted","Pauline Majer","Sylvester", "Franklin Hatchett","Ben Malol","Anton Kraly", "Nick Peterson","Shopify","Jason Wardrop","Yomi Denzel"]
 		},
 		{
 			"Name": "Social Media",
@@ -44,7 +44,7 @@
 			"Name": "Shopping",
 			"Destination": "Shopping",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["McAfee","Uber","UiPath","Clicks Group", "@clicks.co.za","DSTV","Webflow","Amazon"]
+			"Tokens": ["McAfee","Uber","UiPath","Clicks Group", "@clicks.co.za","DSTV","Webflow","Amazon","DHGate.com"]
 		},
 		{
 			"Name": "Shopping",
@@ -62,8 +62,8 @@
 			"Name": "Jobs",
 			"Destination": "Jobs",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["BestJobs Alerts","Indeed","Ashley Roberts"]
-		,
+			"Tokens": ["BestJobs Alerts","Indeed","Ashley Roberts","Dubai Jobs"]
+		},
 		{
 			"Name": "Jobs",
 			"Destination": "Jobs",
