@@ -1,0 +1,63 @@
+{
+	"filters": [
+		{
+			"Name": "Banking/FNB",
+			"Destination": "Banking/FNB",
+			"Email Field": "FromDisplayName",
+			"Tokens": ["@fnb.co.za"]
+		},{
+			"Name": "Banking/Bidvest",
+			"Destination": "Banking/Bidvest",
+			"Email Field": "FromDisplayName",
+			"Tokens": ["Bidvest Bank"]
+		},
+		{
+			"Name": "Blogs",
+			"Destination": "Blogs",
+			"Email Field": "FromDisplayName",
+			"Tokens": ["Quora","Medium","IEEE Spectrum","TaxTim","Analytics Vidhya","Stevan LeMeur"]
+		},
+		{
+			"Name": "eCommerce",
+			"Destination": "eCommerce",
+			"Email Field": "FromDisplayName",
+			"Tokens": ["Adrian Morrison", "Ecomhunt", "Oberlo", "Fred Lam", "Dan Vas", "Dylan Sigley", "Ezra Firestone", "Wholesale Ted","Pauline Majer","Sylvester", "Franklin Hattchet","Ben Malol"]
+		},
+		{
+			"Name": "Social Media",
+			"Destination": "Social Media",
+			"Email Field": "FromDisplayName",
+			"Tokens": ["Facebook","LinkedIn","Reddit","Youtube","Upwork","Dribbble","Guru","YouVersion","Instagram","Twitter"]
+		},
+		{
+			"Name": "Shopping",
+			"Destination": "Shopping",
+			"Email Field": "FromDisplayName",
+			"Tokens": ["McAfee","Uber","UiPath","Clicks Group"]
+		},
+		{
+			"Name": "Google",
+			"Destination": "Google",
+			"Email Field": "FromDisplayName",
+			"Tokens": ["Google"]
+		},
+		{
+			"Name": "Jobs",
+			"Destination": "Jobs",
+			"Email Field": "FromAddress",
+			"Tokens": ["@jobalerts.pnet.co.za","BestJobs Alerts"]
+		},
+		{
+			"Name": "Academia",
+			"Destination": "Academia",
+			"Email Field": "FromDisplayName",
+			"Tokens": ["Hulde Drew", "Mendeley"]
+		},
+		{
+			"Name": "Web Development",
+			"Destination": "Web Development",
+			"Email Field": "FromDisplayName",
+			"Tokens": ["Team Cloud9", "GeeksforGeeks"]
+		}
+	]
+}
