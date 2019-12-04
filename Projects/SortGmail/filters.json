@@ -26,19 +26,31 @@
 			"Name": "eCommerce",
 			"Destination": "eCommerce",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Adrian Morrison", "Ecomhunt", "Oberlo", "Fred Lam", "Dan Vas", "Dylan Sigley", "Ezra Firestone", "Wholesale Ted","Pauline Majer","Sylvester", "Franklin Hattchet","Ben Malol"]
+			"Tokens": ["Adrian Morrison", "Ecomhunt", "Oberlo", "Fred Lam", "Dan Vas", "Dylan Sigley", "Ezra Firestone", "Wholesale Ted","Pauline Majer","Sylvester", "Franklin Hattchet","Ben Malol","Anton Kraly", "Nick Peterson","Shopify","Jason Wardrop"]
 		},
 		{
 			"Name": "Social Media",
 			"Destination": "Social Media",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Facebook","LinkedIn","Reddit","Youtube","Upwork","Dribbble","Guru","YouVersion","Instagram","Twitter","Pinterest","Behance"]
+			"Tokens": ["Facebook","LinkedIn","Reddit","Youtube","Upwork","Dribbble","Guru","YouVersion","Instagram","Twitter","Pinterest","Behance","CodePen","Alliance Biblique"]
+		},
+		{
+			"Name": "Social Media",
+			"Destination": "Social Media",
+			"Email Field": "FromAddress",
+			"Tokens": ["@linkedin.com"]
 		},
 		{
 			"Name": "Shopping",
 			"Destination": "Shopping",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["McAfee","Uber","UiPath","Clicks Group", "@clicks.co.za","DSTV"]
+			"Tokens": ["McAfee","Uber","UiPath","Clicks Group", "@clicks.co.za","DSTV","Webflow","Amazon"]
+		},
+		{
+			"Name": "Shopping",
+			"Destination": "Shopping",
+			"Email Field": "FromAddress",
+			"Tokens": ["@clicks.co.za"]
 		},
 		{
 			"Name": "Google",
@@ -49,20 +61,26 @@
 		{
 			"Name": "Jobs",
 			"Destination": "Jobs",
+			"Email Field": "FromDisplayName",
+			"Tokens": ["BestJobs Alerts","Indeed","Ashley Roberts"]
+		,
+		{
+			"Name": "Jobs",
+			"Destination": "Jobs",
 			"Email Field": "FromAddress",
-			"Tokens": ["@jobalerts.pnet.co.za","BestJobs Alerts","Indeed"]
+			"Tokens": ["@jobalerts.pnet.co.za"]
 		},
 		{
 			"Name": "Academia",
 			"Destination": "Academia",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Hulde Drew", "Mendeley","Kaggle","Academia"]
+			"Tokens": ["Hulde Drew", "Mendeley","Kaggle","Academia", "Udemy"]
 		},
 		{
 			"Name": "Web Development",
 			"Destination": "Web Development",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Team Cloud9", "GeeksforGeeks"]
+			"Tokens": ["Team Cloud9", "GeeksforGeeks","Stack Overflow"]
 		}
 	]
 }

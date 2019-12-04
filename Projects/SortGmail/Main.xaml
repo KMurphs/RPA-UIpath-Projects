@@ -60,7 +60,7 @@
       <Variable x:TypeArguments="njl:JObject" Name="configData" />
       <Variable x:TypeArguments="x:String" Default="filters.json" Name="filtersFileName" />
       <Variable x:TypeArguments="njl:JObject" Name="filtersData" />
-      <Variable x:TypeArguments="x:Int32" Default="50" Name="numberOfMails" />
+      <Variable x:TypeArguments="x:Int32" Default="100" Name="numberOfMails" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
