@@ -3,7 +3,7 @@
 ## Setting UP
 
 Take the whole project on the local drive C:
-Ensure the following is present:
+Ensure the following are present:
 	-	Reports folder
 	-	runTask.bat
 	-	ReportJiraIssues.<some version>.nupkg (e.g some version may be ``1.0.1``)
