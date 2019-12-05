@@ -1,3 +1,5 @@
+SET ReportJiraIssuesVersion=1.0.2
+
 
 @echo off
 echo Starting Jira Scrapping...
@@ -17,7 +19,7 @@ cd %robotDir%
 
 echo Starting Robot Process
 REM UiRobot.exe --enableLowLevel
-UiRobot.exe execute --file "%startDir%\ReportJiraIssues.1.0.1.nupkg" 
+UiRobot.exe execute --file "%startDir%\ReportJiraIssues.%ReportJiraIssuesVersion%.nupkg" 
 
 echo Returning To Original Directory
 cd %startDir%

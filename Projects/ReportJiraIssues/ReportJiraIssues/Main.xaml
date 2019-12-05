@@ -68,7 +68,7 @@
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_5" Text="[System.DateTime.Now.ToString(&quot;Repor\t\s\\yyyy-MM-dd Repor\t.xl\sx&quot;)]" />
     <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Get Credentials" sap:VirtualizedContainerService.HintSize="230,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ReadJsonFile.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="fileName">config.json</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="fileName">credentials.json</InArgument>
         <OutArgument x:TypeArguments="njl:JObject" x:Key="fileData">[credentials]</OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
       <sap:WorkflowViewStateService.ViewState>
