@@ -17,7 +17,7 @@ cd %robotDir%
 
 echo Starting Robot Process
 REM UiRobot.exe --enableLowLevel
-UiRobot.exe execute --file "%startDir%\Main.xaml" 
+UiRobot.exe execute --file "%startDir%\ReportJiraIssues.1.0.1.nupkg" 
 
 echo Returning To Original Directory
 cd %startDir%
