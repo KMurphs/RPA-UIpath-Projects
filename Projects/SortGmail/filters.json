@@ -5,46 +5,72 @@
 			"Destination": "Banking/FNB",
 			"Email Field": "FromDisplayName",
 			"Tokens": ["@fnb.co.za"]
-		},{
+		},
+		{
 			"Name": "Banking/Bidvest",
 			"Destination": "Banking/Bidvest",
 			"Email Field": "FromDisplayName",
 			"Tokens": ["Bidvest Bank"]
-		},{
+		},
+		{
+			"Name": "Banking/ABSA",
+			"Destination": "Banking/ABSA",
+			"Email Field": "FromAddress",
+			"Tokens": ["@absa.co.za"]
+		},
+		{
+			"Name": "Banking/Bidvest",
+			"Destination": "Banking/Bidvest",
+			"Email Field": "FromAddress",
+			"Tokens": ["@bidvestbank.co.za"]
+		},
+		{
 			"Name": "Banking/Capitec",
 			"Destination": "Banking/Capitec",
 			"Email Field": "FromDisplayName",
 			"Tokens": ["Capitec"]
 		},
 		{
+			"Name": "Banking",
+			"Destination": "Banking",
+			"Email Field": "FromDisplayName",
+			"Tokens": ["Payoneer","2Checkout Team"]
+		},
+		{
 			"Name": "Blogs",
 			"Destination": "Blogs",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Quora","Medium","IEEE Spectrum","TaxTim","Analytics Vidhya","Stevan LeMeur","@foxwebschool","Zoho","Quincy Larson","Dataweek","PayScale","Team Netlify"]
+			"Tokens": ["Quora","Medium","IEEE Spectrum","TaxTim","Analytics Vidhya","Stevan LeMeur","@foxwebschool","Zoho","Quincy Larson","Dataweek","PayScale","Team Netlify","Top Coder","James Hayton PhD","Towards Data Science"]
+		},
+		{
+			"Name": "Blogs",
+			"Destination": "Blogs",
+			"Email Field": "FromAddress",
+			"Tokens": ["@technews.co.za"]
 		},
 		{
 			"Name": "eCommerce",
 			"Destination": "eCommerce",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Adrian Morrison", "Ecomhunt", "Oberlo", "Fred Lam", "Dan Vas", "Dylan Sigley", "Ezra Firestone", "Wholesale Ted","Pauline Majer","Sylvester", "Franklin Hatchett","Ben Malol","Anton Kraly", "Nick Peterson","Shopify","Jason Wardrop","Yomi Denzel"]
+			"Tokens": ["Adrian Morrison", "Ecomhunt", "Oberlo", "Fred Lam", "Dan Vas", "Dan Lok", "Dylan Sigley", "Ezra Firestone", "Wholesale Ted","Pauline Majer","Sylvester", "Franklin Hatchett","Ben Malol","Anton Kraly", "Nick Peterson","Shopify","Jason Wardrop","Yomi Denzel","NeoReach","Peter Chan Jr","LeadsBrid"]
 		},
 		{
 			"Name": "Social Media",
 			"Destination": "Social Media",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Facebook","LinkedIn","Reddit","Youtube","Upwork","Dribbble","Guru","YouVersion","Instagram","Twitter","Pinterest","Behance","CodePen","Alliance Biblique"]
+			"Tokens": ["Facebook","LinkedIn","Reddit","Youtube","Upwork","Dribbble","Guru","YouVersion","Instagram","Twitter","Pinterest","Behance","CodePen","Alliance Biblique","GitHub"]
 		},
 		{
 			"Name": "Social Media",
 			"Destination": "Social Media",
 			"Email Field": "FromAddress",
-			"Tokens": ["@linkedin.com"]
+			"Tokens": ["@linkedin.com","@github.com"]
 		},
 		{
 			"Name": "Shopping",
 			"Destination": "Shopping",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["McAfee","Uber","UiPath","Clicks Group", "@clicks.co.za","DSTV","Webflow","Amazon","DHGate.com"]
+			"Tokens": ["McAfee","Uber","UiPath","Clicks Group", "@clicks.co.za","DSTV","Webflow","Amazon","DHGate.com","Apple","AliExpress","InfinityFree"]
 		},
 		{
 			"Name": "Shopping",
@@ -56,7 +82,7 @@
 			"Name": "Google",
 			"Destination": "Google",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Google"]
+			"Tokens": ["Google","Dropbox","FireFox"]
 		},
 		{
 			"Name": "Jobs",
@@ -74,13 +100,19 @@
 			"Name": "Academia",
 			"Destination": "Academia",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Hulde Drew", "Mendeley","Kaggle","Academia", "Udemy"]
+			"Tokens": ["Hulde Drew", "Mendeley","Kaggle","Academia", "Udemy","Chunling Du"]
 		},
 		{
 			"Name": "Web Development",
 			"Destination": "Web Development",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Team Cloud9", "GeeksforGeeks","Stack Overflow"]
+			"Tokens": ["Team Cloud9", "GeeksforGeeks","Stack Overflow","DotTech Domains","Goorm","JustUno","HackerRank Team", "Raja Rao","TopCoder"]
+		},
+		{
+			"Name": "Medical",
+			"Destination": "Medical",
+			"Email Field": "FromDisplayName",
+			"Tokens": ["Medicare Plan"]
 		}
 	]
 }
