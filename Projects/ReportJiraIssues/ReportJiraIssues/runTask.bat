@@ -1,4 +1,5 @@
-SET ReportJiraIssuesVersion=1.0.2
+SET ReportJiraIssuesVersion=1.0.3
+SET JiraProject="DEVTST"
 
 
 @echo off
@@ -18,8 +19,8 @@ echo Going Into Robot Directory
 cd %robotDir%
 
 echo Starting Robot Process
-REM UiRobot.exe --enableLowLevel
-UiRobot.exe execute --file "%startDir%\ReportJiraIssues.%ReportJiraIssuesVersion%.nupkg" 
+REM UiRobot.exe execute --file "%startDir%\main.xaml" --input "{'project' : '%JiraProject%'}"
+UiRobot.exe execute --file "%startDir%\ReportJiraIssues.%ReportJiraIssuesVersion%.nupkg" --input "{'project' : '%JiraProject%'}"
 
 echo Returning To Original Directory
 cd %startDir%

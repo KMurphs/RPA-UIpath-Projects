@@ -10,7 +10,7 @@ Ensure the following are present:
 	-	credentials.json
 	
 Update the content of ```credentials.json``` to include correct username and password.
-Update the content of ```runTask.bat``` to reference the correct version of the ReportJiraIssues package (See first line of batch file - e.g. ``SET ReportJiraIssuesVersion=1.0.1``)
+Update the content of ```runTask.bat``` to reference the correct version of the ReportJiraIssues package (See first line of batch file - e.g. ``SET ReportJiraIssuesVersion=1.0.1``) and the JIRA project that must be reported on (see second line: ``project="DEVTST"``) 
 
 ## Running
 
