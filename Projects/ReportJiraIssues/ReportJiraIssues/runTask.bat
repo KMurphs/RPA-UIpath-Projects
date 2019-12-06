@@ -1,4 +1,4 @@
-SET ReportJiraIssuesVersion=1.0.3
+SET ReportJiraIssuesVersion=1.0.4
 SET JiraProject="DEVTST"
 
 
