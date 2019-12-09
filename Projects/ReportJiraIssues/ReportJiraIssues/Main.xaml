@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1103,4414" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1103,4252" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="26">
       <x:String>System.Activities</x:String>
@@ -52,7 +52,7 @@
       <AssemblyReference>Newtonsoft.Json</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1083,4354" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence sap:VirtualizedContainerService.HintSize="1083,4192" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="DTIssues" />
       <Variable x:TypeArguments="x:String" Default="[System.DateTime.Now.ToString(&quot;yyyy-&quot;) + (Convert.ToInt32(if(System.DateTime.Now.ToString(&quot;MM&quot;) = &quot;01&quot;,System.DateTime.Now.ToString(&quot;12&quot;),System.DateTime.Now.ToString(&quot;MM&quot;))) - 1).ToString() +System.DateTime.Now.ToString(&quot;-dd&quot;)]" Name="startDate" />
@@ -86,7 +86,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:BuildDataTable>
-    <Sequence DisplayName="Scrape Jira" sap:VirtualizedContainerService.HintSize="1041,3483" sap2010:WorkflowViewState.IdRef="Sequence_7">
+    <Sequence DisplayName="Scrape Jira" sap:VirtualizedContainerService.HintSize="1041,3682" sap2010:WorkflowViewState.IdRef="Sequence_7">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Default="0" Name="Span" />
         <Variable x:TypeArguments="ui:Browser" Name="browser" />
@@ -97,13 +97,13 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" BrowserType="Chrome" DisplayName="Open https://jira.parsec.co.za:8443/issues/?jql=project%20%3D%20DEVTST%20%20AND%20priority%20%3D%20Normal%20AND%20created%20%3E%3D%202019-11-01%20AND%20created%20%3C%3D%202019-12-05%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC" sap:VirtualizedContainerService.HintSize="999,3391" sap2010:WorkflowViewState.IdRef="OpenBrowser_3" UiBrowser="[browser]" Url="https://jira.parsec.co.za:8443/issues/">
+      <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" BrowserType="Chrome" DisplayName="Open https://jira.parsec.co.za:8443/issues/?jql=project%20%3D%20DEVTST%20%20AND%20priority%20%3D%20Normal%20AND%20created%20%3E%3D%202019-11-01%20AND%20created%20%3C%3D%202019-12-05%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC" sap:VirtualizedContainerService.HintSize="999,3590" sap2010:WorkflowViewState.IdRef="OpenBrowser_3" UiBrowser="[browser]" Url="https://jira.parsec.co.za:8443/issues/">
         <ui:OpenBrowser.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="965,3292" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="965,3491" sap2010:WorkflowViewState.IdRef="Sequence_6">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="loginText" />
               </Sequence.Variables>
@@ -227,25 +227,25 @@
                   </If.Then>
                 </If>
               </Sequence>
-              <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[DTIssues]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="923,3032" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[DTIssues]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="923,3231" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                 <ui:ForEachRow.Body>
                   <ActivityAction x:TypeArguments="sd:DataRow">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="issue" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="873,2885" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="873,3084" sap2010:WorkflowViewState.IdRef="Sequence_9">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'IssueNavi Page'" sap:VirtualizedContainerService.HintSize="831,2793" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="674a5ac95160021ff5388b4a517eb671" Selector="[browser.Element.Selector.Text]">
+                      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'IssueNavi Page'" sap:VirtualizedContainerService.HintSize="831,2992" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="674a5ac95160021ff5388b4a517eb671" Selector="[browser.Element.Selector.Text]">
                         <ui:WindowScope.Body>
                           <ActivityAction x:TypeArguments="x:Object">
                             <ActivityAction.Argument>
                               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                             </ActivityAction.Argument>
-                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="797,2647" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="797,2846" sap2010:WorkflowViewState.IdRef="Sequence_26">
                               <Sequence.Variables>
                                 <Variable x:TypeArguments="x:String" Default="[&quot;https://jira.parsec.co.za:8443/issues/?jql=project%20%3D%20&quot;+project+&quot;%20%20AND%20priority%20%3D%20&quot; + issue.Item(&quot;level&quot;).ToString() + &quot;%20AND%20created%20%3E%3D%20&quot;+ startDate +&quot;%20AND%20created%20%3C%3D%20&quot;+ endDate +&quot;%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC&quot;]" Name="urlTarget" />
                                 <Variable x:TypeArguments="x:String" Name="tmpSpan" />
@@ -265,6 +265,7 @@
                                   <InArgument x:TypeArguments="x:String">["https://jira.parsec.co.za:8443/issues/?jql=project%20%3D%20"+project+"%20%20AND%20priority%20%3D%20" + issue.Item("level").ToString() + "%20AND%20created%20%3E%3D%20"+ startDate +"%20AND%20created%20%3C%3D%20"+ endDate +"%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC"]</InArgument>
                                 </Assign.Value>
                               </Assign>
+                              <ui:SetToClipboard DisplayName="Set To Clipboard" sap:VirtualizedContainerService.HintSize="755,59" sap2010:WorkflowViewState.IdRef="SetToClipboard_1" Text="[urlTarget]" />
                               <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'chrome.exe URL'" sap:VirtualizedContainerService.HintSize="755,106" sap2010:WorkflowViewState.IdRef="Click_7" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                                 <ui:Click.CursorPosition>
                                   <ui:CursorPosition OffsetX="705" OffsetY="58" Position="TopLeft" />
@@ -304,7 +305,7 @@
                                   </ui:Target>
                                 </ui:SendHotkey.Target>
                               </ui:SendHotkey>
-                              <ui:SetToClipboard DisplayName="Set To Clipboard" sap:VirtualizedContainerService.HintSize="755,59" sap2010:WorkflowViewState.IdRef="SetToClipboard_1" Text="[urlTarget]" />
+                              <ui:SetToClipboard DisplayName="Set To Clipboard" sap:VirtualizedContainerService.HintSize="755,59" sap2010:WorkflowViewState.IdRef="SetToClipboard_2" Text="[urlTarget]" />
                               <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey 'chrome.exe Copy'" sap:VirtualizedContainerService.HintSize="755,154" sap2010:WorkflowViewState.IdRef="SendHotkey_3" Key="v" KeyModifiers="Ctrl" SpecialKey="False">
                                 <ui:SendHotkey.Target>
                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" InformativeScreenshot="ceefcafe597bd0ef918a1d1c5a4397d2">
@@ -329,7 +330,7 @@
                                   </ui:Target>
                                 </ui:SendHotkey.Target>
                               </ui:SendHotkey>
-                              <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="755,22" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                              <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="755,22" sap2010:WorkflowViewState.IdRef="Delay_3" />
                               <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'chrome.exe URL'" sap:VirtualizedContainerService.HintSize="755,106" sap2010:WorkflowViewState.IdRef="Click_8" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                                 <ui:Click.CursorPosition>
                                   <ui:CursorPosition OffsetX="705" OffsetY="58" Position="TopLeft" />
@@ -382,7 +383,7 @@
                                   <InArgument x:TypeArguments="x:String">0</InArgument>
                                 </Assign.Value>
                               </Assign>
-                              <If Condition="[urlCurrent.contains(&quot;https://jira.parsec.co.za:8443/issues/?jql&quot;)]" DisplayName="Scrappe Number of Issues" sap:VirtualizedContainerService.HintSize="755,445" sap2010:WorkflowViewState.IdRef="If_2">
+                              <If Condition="[urlCurrent.contains(&quot;https://jira.parsec.co.za:8443/issues/?jql&quot;)]" DisplayName="Scrappe Number of Issues" sap:VirtualizedContainerService.HintSize="755,545" sap2010:WorkflowViewState.IdRef="If_2">
                                 <If.Then>
                                   <ui:GetValue ContinueOnError="True" DisplayName="Action Get Text 'SPAN'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="GetValue_4">
                                     <ui:GetValue.Target>
@@ -394,12 +395,20 @@
                                   </ui:GetValue>
                                 </If.Then>
                                 <If.Else>
-                                  <Sequence sap:VirtualizedContainerService.HintSize="376,298" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                                  <Sequence sap:VirtualizedContainerService.HintSize="376,398" sap2010:WorkflowViewState.IdRef="Sequence_27">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
+                                    <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_8">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">[tmpSpan]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">0 of 0</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
                                     <ui:GetValue ContinueOnError="True" DisplayName="Get Text 'SPAN'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="GetValue_5">
                                       <ui:GetValue.Target>
                                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="388b1ee21590dd2a6c5b12c5c158a6b8" Selector="&lt;webctrl parentid='content' css-selector='div.issue-tools' tag='DIV' /&gt;&lt;webctrl parentid='content' css-selector='.pager &amp;gt; .showing &amp;gt; span' tag='SPAN' /&gt;" TimeoutMS="1000" WaitForReady="COMPLETE" />
@@ -485,31 +494,5 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ExcelApplicationScope>
-    <Sequence DisplayName="Web" sap:VirtualizedContainerService.HintSize="1041,321" sap2010:WorkflowViewState.IdRef="Sequence_29">
-      <Sequence.Variables>
-        <Variable x:TypeArguments="ui:GenericValue" Name="Span" />
-      </Sequence.Variables>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-      <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'DEVTST 34 Page'" sap:VirtualizedContainerService.HintSize="434,229" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="42b94718b2803dfe7df43716964eb96b" Selector="&lt;html app='chrome.exe' title='[DEVTST-340] HSID6000 not always detected by Management Applicat*' /&gt;">
-        <ui:BrowserScope.Body>
-          <ActivityAction x:TypeArguments="x:Object">
-            <ActivityAction.Argument>
-              <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
-            </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="200,83" sap2010:WorkflowViewState.IdRef="Sequence_28">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-            </Sequence>
-          </ActivityAction>
-        </ui:BrowserScope.Body>
-      </ui:BrowserScope>
-    </Sequence>
   </Sequence>
 </Activity>
