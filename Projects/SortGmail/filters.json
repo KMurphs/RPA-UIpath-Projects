@@ -40,7 +40,7 @@
 			"Name": "Blogs",
 			"Destination": "Blogs",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Quora","Medium","IEEE Spectrum","TaxTim","Analytics Vidhya","Stevan LeMeur","@foxwebschool","Zoho","Quincy Larson","Dataweek","PayScale","Team Netlify","Top Coder","James Hayton PhD","Towards Data Science"]
+			"Tokens": ["Quora","Medium","IEEE Spectrum","TaxTim","Analytics Vidhya","Stevan LeMeur","@foxwebschool","Zoho","Quincy Larson","Dataweek","PayScale","Team Netlify","Top Coder","James Hayton PhD","Towards Data Science","Fabiola Chavez","Jason @ ML Mastery"]
 		},
 		{
 			"Name": "Blogs",
@@ -52,13 +52,13 @@
 			"Name": "eCommerce",
 			"Destination": "eCommerce",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Adrian Morrison", "Ecomhunt", "Oberlo", "Fred Lam", "Dan Vas", "Dan Lok", "Dylan Sigley", "Ezra Firestone", "Wholesale Ted","Pauline Majer","Sylvester", "Franklin Hatchett","Ben Malol","Anton Kraly", "Nick Peterson","Shopify","Jason Wardrop","Yomi Denzel","NeoReach","Peter Chan Jr","LeadsBrid"]
+			"Tokens": ["Adrian Morrison", "Ecomhunt", "Oberlo", "Fred Lam", "Dan Vas", "Dan Lok", "Dylan Sigley", "Ezra Firestone", "Wholesale Ted","Pauline Majer","Sylvester", "Franklin Hattchet", "Franklin Hatchett","Ben Malol","Anton Kraly", "Nick Peterson","Shopify","Jason Wardrop","Yomi Denzel","NeoReach","Peter Chan Jr","LeadsBrid"]
 		},
 		{
 			"Name": "Social Media",
 			"Destination": "Social Media",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Facebook","LinkedIn","Reddit","Youtube","Upwork","Dribbble","Guru","YouVersion","Instagram","Twitter","Pinterest","Behance","CodePen","Alliance Biblique","GitHub"]
+			"Tokens": ["Facebook","LinkedIn","Reddit","Youtube","Upwork","Dribbble","Guru","Freelancer.com","YouVersion","Instagram","Twitter","Pinterest","Behance","CodePen","Alliance Biblique","GitHub"]
 		},
 		{
 			"Name": "Social Media",
@@ -82,7 +82,7 @@
 			"Name": "Google",
 			"Destination": "Google",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Google","Dropbox","FireFox"]
+			"Tokens": ["Google","Dropbox","FireFox", "Google Play"]
 		},
 		{
 			"Name": "Jobs",
