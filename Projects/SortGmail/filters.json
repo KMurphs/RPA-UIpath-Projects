@@ -25,6 +25,18 @@
 			"Tokens": ["@bidvestbank.co.za"]
 		},
 		{
+			"Name": "Banking/Nedbank",
+			"Destination": "Banking/Nedbank",
+			"Email Field": "FromAddress",
+			"Tokens": ["@nedbank.co.za"]
+		},
+		{
+			"Name": "Banking/Standard Bank",
+			"Destination": "Banking/StandardBank",
+			"Email Field": "FromAddress",
+			"Tokens": ["@standardbank.co.za"]
+		},
+		{
 			"Name": "Banking/Capitec",
 			"Destination": "Banking/Capitec",
 			"Email Field": "FromDisplayName",
@@ -37,22 +49,34 @@
 			"Tokens": ["Payoneer","2Checkout Team"]
 		},
 		{
+			"Name": "Banking",
+			"Destination": "Banking",
+			"Email Field": "FromAddress",
+			"Tokens": ["@2checkout.com"]
+		},
+		{
 			"Name": "Blogs",
 			"Destination": "Blogs",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Quora","Medium","IEEE Spectrum","TaxTim","Analytics Vidhya","Stevan LeMeur","@foxwebschool","Zoho","Quincy Larson","Dataweek","PayScale","Team Netlify","Top Coder","James Hayton PhD","Towards Data Science","Fabiola Chavez","Jason @ ML Mastery"]
+			"Tokens": ["Quora","Medium","IEEE Spectrum","TaxTim","Analytics Vidhya","Stevan LeMeur","@foxwebschool","Zoho","Quincy Larson","Dataweek","PayScale","Team Netlify","Top Coder","James Hayton PhD","Towards Data Science","Fabiola Chavez","Jason @ ML Mastery","Nuri Barnard","Mayank","Dataquest"]
 		},
 		{
 			"Name": "Blogs",
 			"Destination": "Blogs",
 			"Email Field": "FromAddress",
-			"Tokens": ["@technews.co.za"]
+			"Tokens": ["@technews.co.za","analyticsvidhya"]
 		},
 		{
 			"Name": "eCommerce",
 			"Destination": "eCommerce",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Adrian Morrison", "Ecomhunt", "Oberlo", "Fred Lam", "Dan Vas", "Dan Lok", "Dylan Sigley", "Ezra Firestone", "Wholesale Ted","Pauline Majer","Sylvester", "Franklin Hattchet", "Franklin Hatchett","Ben Malol","Anton Kraly", "Nick Peterson","Shopify","Jason Wardrop","Yomi Denzel","NeoReach","Peter Chan Jr","LeadsBrid"]
+			"Tokens": ["Adrian Morrison", "Ecomhunt", "Oberlo", "Fred Lam", "Dan Vas", "Dan Lok", "Dylan Sigley", "Ezra Firestone", "Wholesale Ted","Pauline Majer","Sylvester", "Franklin Hattchet", "Franklin Hatchett","Ben Malol","Anton Kraly", "Nick Peterson","Shopify","Jason Wardrop","Yomi Denzel","NeoReach","Peter Chan Jr","LeadsBrid","Heepsy","Tristan Broughton"]
+		},
+		{
+			"Name": "eCommerce",
+			"Destination": "eCommerce",
+			"Email Field": "FromAddress",
+			"Tokens": ["@dropshiplifestyle.com","@wholesaleted.com","@dropshipclub.co","@jonmac.co","@gabrielstgermain.com"]
 		},
 		{
 			"Name": "Social Media",
@@ -64,7 +88,7 @@
 			"Name": "Social Media",
 			"Destination": "Social Media",
 			"Email Field": "FromAddress",
-			"Tokens": ["@linkedin.com","@github.com"]
+			"Tokens": ["@linkedin.com","@github.com","@editionsbiblio.fr"]
 		},
 		{
 			"Name": "Shopping",
@@ -88,13 +112,13 @@
 			"Name": "Jobs",
 			"Destination": "Jobs",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["BestJobs Alerts","Indeed","Ashley Roberts","Dubai Jobs"]
+			"Tokens": ["BestJobs Alerts","Indeed","Ashley Roberts","Dubai Jobs","From BestJobs"]
 		},
 		{
 			"Name": "Jobs",
 			"Destination": "Jobs",
 			"Email Field": "FromAddress",
-			"Tokens": ["@jobalerts.pnet.co.za"]
+			"Tokens": ["@jobalerts.pnet.co.za","@careers.ibm.com"]
 		},
 		{
 			"Name": "Academia",
@@ -106,13 +130,31 @@
 			"Name": "Web Development",
 			"Destination": "Web Development",
 			"Email Field": "FromDisplayName",
-			"Tokens": ["Team Cloud9", "GeeksforGeeks","Stack Overflow","DotTech Domains","Goorm","JustUno","HackerRank Team", "Raja Rao","TopCoder"]
+			"Tokens": ["Team Cloud9", "GeeksforGeeks","Stack Overflow","DotTech Domains","Goorm","JustUno","HackerRank Team", "Raja Rao","TopCoder","Heroku","Netlify","Eco Web Hosting"]
 		},
 		{
 			"Name": "Medical",
 			"Destination": "Medical",
 			"Email Field": "FromDisplayName",
 			"Tokens": ["Medicare Plan"]
+		},
+		{
+			"Name": "Medical",
+			"Destination": "Medical",
+			"Email Field": "Subject",
+			"Tokens": ["Medicare"]
+		},
+		{
+			"Name": "Properties",
+			"Destination": "Properties",
+			"Email Field": "FromAddress",
+			"Tokens": ["@karisproperties.co.za"]
+		},
+		{
+			"Name": "Spam",
+			"Destination": "Spam",
+			"Email Field": "FromAddress",
+			"Tokens": ["@jeanpierremurraykline.co.za"]
 		}
 	]
 }
