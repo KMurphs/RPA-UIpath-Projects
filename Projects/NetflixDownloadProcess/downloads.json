@@ -1,0 +1,9 @@
+{
+	"movies": [
+		"Bloodshot",
+		"Work It"
+	],
+	"shows": [
+		{ "name": "test", "start": "S02E01", "quantity": -1 }
+	]
+}
